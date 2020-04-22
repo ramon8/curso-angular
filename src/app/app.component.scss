@@ -1,0 +1,24 @@
+.container-app{
+    display: grid;
+    height: 100%;
+    grid-template: 
+        " header    header  " 50px
+        " nav       main    " 1fr
+        / 150px     1fr;
+}
+
+
+.header{
+    grid-area: header;
+    background-color: green;
+}
+
+.nav{
+    grid-area: nav;
+    background-color: red;
+}
+
+.main{
+    grid-area: main;
+    background-color: blue;
+}

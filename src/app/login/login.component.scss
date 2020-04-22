@@ -1,0 +1,6 @@
+.login-container{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    grid-template-rows: repeat(3, 150px);
+}
